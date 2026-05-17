@@ -1,0 +1,5 @@
+id,module_id,type,title,body,file_path,created_at
+1,1,lecture,What is Big-O?,Introduction to asymptotic notation,,2024-01-19 08:00:00
+2,1,file,Lecture Slides Week 1,,/files/algo_week1.pdf,2024-01-19 09:00:00
+3,2,lecture,Merge Sort Explained,Step by step merge sort walkthrough,,2024-01-19 10:00:00
+4,3,lecture,First Normal Form,Understanding 1NF with examples,,2024-01-19 11:00:00

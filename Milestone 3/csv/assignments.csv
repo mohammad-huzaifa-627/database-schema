@@ -1,0 +1,5 @@
+id,course_id,title,description,due_date,max_marks,submission_type,allow_late,late_penalty_pct,release_date,created_at
+1,1,Assignment 1: Big-O Analysis,Analyze time complexity of given functions,2024-02-01 23:59:00,20,file,true,10,2024-01-20 08:00:00,2024-01-20 08:00:00
+2,2,Lab 1: SQL Queries,Write SQL queries for given schema,2024-02-05 23:59:00,25,file,false,0,2024-01-22 08:00:00,2024-01-22 08:00:00
+3,3,Problem Set 1: Probability,Solve probability problems using Bayes theorem,2024-02-08 23:59:00,30,text,true,5,2024-01-23 08:00:00,2024-01-23 08:00:00
+4,4,SRS Document,Write a Software Requirements Specification,2024-02-10 23:59:00,40,file,true,15,2024-01-25 08:00:00,2024-01-25 08:00:00

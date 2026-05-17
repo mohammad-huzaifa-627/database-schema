@@ -1,0 +1,38 @@
+Data Flow Description
+Track 1: Academic (Learning Management)
+1. Users are created (students, teachers, admins).
+2. Courses are created by a teacher (referenced by teacher_id).
+3. Enrollments link students to courses (unique (course_id, student_id)).
+4. Modules are created under a course (course_id) with an order index.
+5. Content items (lectures, files, videos, quizzes) are added to modules.
+6. Assignments are created per course; students submit via submissions.
+7. Submission can be file or text; grade and feedback added later.
+8. Quizzes belong to a course (optional student creator).
+9. Questions belong to a quiz; each question may have multiple question_options (for MCQs).
+10. Students take quiz_attempts; each attempt records answers in attempt_answers.
+11. Score is calculated and stored in quiz_attempts.
+
+Flow direction:
+users -> courses -> enrollments -> modules -> content_items
+assignments -> submissions
+quizzes -> questions -> question_options
+quiz_attempts -> attempt_answers
+
+Track 2: Project Management
+1. Projects are created by a user (created_by).
+2. Project members are added with roles (owner/member/viewer).
+3. Milestones are defined per project with due dates and status.
+4. Project tasks can be linked to a milestone (or not) and assigned to a user.
+5. Task comments allow discussion on tasks.
+6. Project messages are general chat messages within a project.
+7. Project files store uploaded documents (versioned).
+8. Project activity log records actions (upload, milestone update, task creation); each action can have multiple activity_log_details (key‑value pairs).
+9. Project notifications are sent to users about assignments, milestones, file uploads, etc.
+
+Flow direction:
+users -> projects -> project_members
+projects -> milestones -> project_tasks -> task_comments
+projects -> project_messages
+projects -> project_files
+projects -> project_activity_log -> activity_log_details
+users <- project_notifications

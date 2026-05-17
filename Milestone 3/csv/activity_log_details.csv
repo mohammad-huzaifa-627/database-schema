@@ -1,0 +1,6 @@
+id,log_id,detail_key,detail_val
+1,1,file,er_diagram.pdf
+2,2,milestone,Requirements Gathering
+3,2,status,completed
+4,3,file,library_mockups.pdf
+5,4,task,Setup Project Repository

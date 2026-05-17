@@ -1,0 +1,5 @@
+id,title,subject,description,teacher_id,enrollment_code,status,cover_color,created_at
+1,Introduction to Algorithms,Computer Science,Covers basic algorithm design and analysis,2,ALG101,active,#4A90E2,2024-01-15 08:00:00
+2,Database Systems,Computer Science,Relational databases and SQL,2,DBS202,active,#7ED321,2024-01-15 09:00:00
+3,Probability & Statistics,Mathematics,Discrete and continuous distributions,2,STA303,active,#F5A623,2024-01-15 10:00:00
+4,Software Engineering,Computer Science,SDLC methodologies and design patterns,2,SE404,active,#D0021B,2024-01-15 11:00:00

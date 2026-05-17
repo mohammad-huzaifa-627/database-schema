@@ -1,0 +1,5 @@
+id,name,email,password_hash,role,profile_pic,university,created_at
+1,Ali Hassan,ali.hassan@school.edu,hashed_pass_1,admin,,Government College University,2024-01-10 08:00:00
+2,Sara Khan,sara.khan@school.edu,hashed_pass_2,teacher,,University of Peshawar,2024-01-11 09:00:00
+3,Bilal Ahmed,bilal.ahmed@school.edu,hashed_pass_3,user,,IMSciences,2024-01-12 10:00:00
+4,Ayesha Noor,ayesha.noor@school.edu,hashed_pass_4,user,,FAST NUCES,2024-01-13 11:00:00

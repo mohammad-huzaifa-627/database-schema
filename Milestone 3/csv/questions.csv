@@ -1,0 +1,5 @@
+id,quiz_id,type,text,correct_answer,marks,order_index
+1,1,mcq,What is the time complexity of binary search?,b,2,1
+2,1,mcq,Which sorting algorithm has O(n log n) worst case?,c,2,2
+3,2,mcq,Which SQL clause filters grouped records?,b,2,1
+4,3,mcq,Bayes theorem deals with which type of probability?,c,2,1

@@ -1,0 +1,17 @@
+id,question_id,option_key,option_text
+1,1,a,O(n)
+2,1,b,O(log n)
+3,1,c,O(n^2)
+4,1,d,O(1)
+5,2,a,Bubble Sort
+6,2,b,Quick Sort
+7,2,c,Merge Sort
+8,2,d,Insertion Sort
+9,3,a,WHERE
+10,3,b,HAVING
+11,3,c,ORDER BY
+12,3,d,GROUP BY
+13,4,a,Marginal
+14,4,b,Joint
+15,4,c,Conditional
+16,4,d,None
