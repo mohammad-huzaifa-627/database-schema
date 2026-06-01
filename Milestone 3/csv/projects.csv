@@ -1,0 +1,5 @@
+id,name,description,created_by,visibility,status,created_at,updated_at
+1,Student Portal System,A web-based portal for managing student data,2,private,active,2024-01-20 08:00:00,2024-01-20 08:00:00
+2,Library Management System,Track books borrowing and returns,2,public,active,2024-01-21 08:00:00,2024-01-21 08:00:00
+3,Attendance Tracker,Automate daily attendance marking,3,private,active,2024-01-22 08:00:00,2024-01-22 08:00:00
+4,Result Management System,Generate and publish student results,1,private,planning,2024-01-23 08:00:00,2024-01-23 08:00:00
